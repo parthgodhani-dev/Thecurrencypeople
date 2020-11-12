@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The currency people</title>
+    <link href="font/SegoeUI.woff" rel="stylesheet">
+    <link href="font/SegoeUI.woff2" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cssmenu.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body onload="myFunction()">
+
+    <div id="loading">
+        <div id="loader"></div>
+    </div>
+
+    <header id="header">
+        <div class="header_inner">
+            <div class="container">
+                <div class="head_bar">
+                    <h1 class="logo"><a href="#"><img src="images/logo.png" alt="Main logo"> the currency people</a></h1>
+                    <div id="cssmenu" class="align-right">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">BUY CURRENCY</a></li>
+                            <li><a href="#">SELL CURRENCY</a></li>
+                            <li><a href="#">TRANSFER</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner_inner banner_img">
+            <img src="images/hero_banner.png" alt="banner_hero">
+            <div class="banner_text">
+                <h2>Get the best exchange rates, commission free</h2>
+                <p>Order Travel money online and get it delivered fully insured and safely to your door.</p>
+                <div class="promo">
+                    <div class="box">
+                        <img src="images/banner_a.png" alt="0% Commission">
+                        <span>0% Commission</span>                        
+                    </div>
+                    <div class="box">
+                        <img src="images/banner_b.png" alt="Secure Delivery">
+                        <span>Secure Delivery</span>                        
+                    </div>
+                    <div class="box">
+                        <img src="images/banner_c.png" alt="Trusted Service">
+                        <span>Trusted Service</span>                        
+                    </div>
+                </div>
+            </div>
+            <div class="tab_box">            
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-1"><img src="images/tab_a.png" alt="tab_a"><p>Buy travel money</p></li>
+                    <li class="tab-link" data-tab="tab-2"><img src="images/tab_b.png" alt="tab_b"><p>Sell travel money</p></li>
+                    <li class="tab-link" data-tab="tab-3"><img src="images/tab_c.png" alt="tab_c"><p>Transfer money aboard</p></li>
+                </ul>
+            
+                <div id="tab-1" class="tab-content current">
+                    <form action="form">
+                        <div class="field">
+                            <div class="opt_currency">
+                                <label>Select a currency</label>  
+                                <select name="currency" class="opt-curn">
+                                    <option value="EUR">Euros</option>
+                                    <option value="USD">USD</option>
+                                    <option value="INR">INR</option>
+                                    <option value="AED">AED</option>
+                                </select>  
+                            </div>
+                        </div>
+                        <div class="two_field">
+                            <div class="field half">
+                                <div class="opt_currency_left">
+                                    <label for="Amount">Amount in Pounds</label>
+                                    <span class="number-wrapper">
+                                        <input type="number" id="Amount" name="Amount" placeholder="£">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field half">
+                                <div class="opt_currency_right">
+                                    <label for="Amount">I want to buy</label>
+                                    <span class="number-wrapper">
+                                        <input type="number" id="Amount" name="Amount" placeholder="€">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="two_field">
+                            <div class="field half">
+                                <p>Best exchange rate = 1 GBP = 1.0784 EUR</p>
+                            </div>
+                            <div class="field half">
+                                <div class="button submit"><a href="#"></a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="tab-2" class="tab-content">
+                    <form action="form">
+                        <div class="field">
+                            <div class="opt_currency">
+                                <label>Select a currency</label>
+                                <select name="currency" class="opt-curn">
+                                    <option value="EUR">Euros</option>
+                                    <option value="USD">USD</option>
+                                    <option value="INR">INR</option>
+                                    <option value="AED">AED</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="two_field">
+                            <div class="field half">
+                                <div class="opt_currency_left">
+                                    <label for="Amount">Amount in Pounds</label>
+                                    <span class="number-wrapper">
+                                        <input type="number" id="Amount" name="Amount" placeholder="£">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field half">
+                                <div class="opt_currency_right">
+                                    <label for="Amount">I want to buy</label>
+                                    <span class="number-wrapper">
+                                        <input type="number" id="Amount" name="Amount" placeholder="€">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="two_field">
+                            <div class="field half">
+                                <p>Best exchange rate = 1 GBP = 1.0784 EUR</p>
+                            </div>
+                            <div class="field half">
+                                <div class="button submit"><a href="#"></a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="tab-3" class="tab-content">
+                    <form action="form">
+                        <div class="field">
+                            <div class="opt_currency">
+                                <label>Select a currency</label>
+                                <select name="currency" class="opt-curn">
+                                    <option value="EUR">Euros</option>
+                                    <option value="USD">USD</option>
+                                    <option value="INR">INR</option>
+                                    <option value="AED">AED</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="two_field">
+                            <div class="field half">
+                                <div class="opt_currency_left">
+                                    <label for="Amount">Amount in Pounds</label>
+                                    <span class="number-wrapper">
+                                        <input type="number" id="Amount" name="Amount" placeholder="£">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field half">
+                                <div class="opt_currency_right">
+                                    <label for="Amount">I want to buy</label>
+                                    <span class="number-wrapper">
+                                        <input type="number" id="Amount" name="Amount" placeholder="€">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="two_field">
+                            <div class="field half">
+                                <p>Best exchange rate = 1 GBP = 1.0784 EUR</p>
+                            </div>
+                            <div class="field half">
+                                <div class="button submit"><a href="#"></a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>           
+            </div>
+        </div>       
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="ser_top">
+                <h2>Currency Services You Can Trust</h2>
+                <p>Buying travel money online has never been easier, whether you wish to buy travel money, sell foreign currency or
+                transfer money overseas we are The Currency People and would love to help you.</p>
+            </div>
+            <div class="ser_bot">
+                <div class="services_box">                    
+                    <img src="images/service_a.png" alt="TRAVEL MONEY PROVIDER">
+                    <h3>TRAVEL MONEY PROVIDER</h3>
+                    <p>Order your currency online and get the best rates. <br>We will send your travel money fully insured to your home using Royal
+                    Mail special delivery.</p>
+                    <a href="#" class="button blue"></a>                    
+                </div>
+                <div class="services_box">                    
+                    <img src="images/service_b.png" alt="TRAVEL MONEY PROVIDER">
+                    <h3>TRAVEL MONEY PROVIDER</h3>
+                    <p>Use our buy back service to sell any unused foreign currency notes. Send us the currency via the buy back service. Once
+                    your package has arrived at our offices we make a transfer directly to your bank.</p>
+                    <a href="#" class="button blue"></a>                    
+                </div>
+                <div class="services_box">                    
+                    <img src="images/service_c.png" alt="TRAVEL MONEY PROVIDER">
+                    <h3>TRAVEL MONEY PROVIDER</h3>
+                    <p>You can use our global online payments platform to send money all over the globe, securely and at competitive exchange
+                    rates.</p>
+                    <a href="#" class="button blue"></a>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why_choose">
+        <img src="images/why_back.png" alt="">
+        <div class="container">            
+            <div class="why_choose_top">
+                <div class="left_img">
+                    <img src="images/Why_choose_us.png" alt="Why_choose_us">
+                </div>
+                <div class="right_con">
+                    <h2>Why choose us?</h2>
+                    <p>As well as the best rates and great service, here are some of the reasons to choose The Currency People:</p>
+                    <ol>
+                        <li><p>We know the FX markets and how to get you the best deals making your transaction cost effective.</p></li>
+                        <li><p>We focus on results getting you what you want, quickly and securely.</p></li>
+                        <li><p>We hand pick our suppliers to give you the best experience.</p></li>
+                        <li><p>We are proactive and always looking for ways to improve our service to you.</p></li>
+                        <li><p>We don’t complicate things. Easy to use websites that keep you or your business moving.</p></li>
+                        <li><p>We can transact large or small, domestically or Internationally so whatever you need you can do it with us.</p></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="why_choose_bot">               
+                <div class="partner_box">
+                    <div class="partner_img">
+                        <img src="images/partner/visa.png" alt="visa">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/royal-mail.png" alt="royal-mail">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/cyber.png" alt="cyber">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/secure.png" alt="secure">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/hm-revenue-custom.png" alt="hm-revenue-custom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="container">
+            <h2>Testimonial</h2>
+            <div class="our_testi owl-carousel owl-theme">
+                <div class="testimo">
+                    <div class="test_con">
+                        <h3>Great Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde blanditiis explicabo officiis nostrum necessitatibus voluptatibus culpa omnis et eveniet inventore quas magni nihil, modi porro aliquid rerum vitae ut Pariatur unde blanditiis explicabo officiis nostrum necessitatibus voluptatibus culpa omnis et eveniet?</p>
+                        <p>N.S. Rochester</p>
+                    </div>
+                </div>
+                <div class="testimo">
+                    <div class="test_con">
+                        <h3>Great Website</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptas nobis tenetur pariatur natus voluptatibus temporibus a. Dolorem voluptatem ducimus perspiciatis molestiae soluta laboriosam! Aspernatur odit tenetur suscipit quae architecto.</p>
+                        <p>N.S. Rochester</p>
+                    </div>
+                </div>
+                <div class="testimo">
+                    <div class="test_con">
+                        <h3>Great Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde blanditiis explicabo officiis nostrum necessitatibus voluptatibus culpa omnis et eveniet inventore quas magni nihil, modi porro aliquid rerum vitae ut Pariatur unde blanditiis explicabo officiis nostrum necessitatibus voluptatibus culpa omnis et eveniet?</p>
+                        <p>N.S. Rochester</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="foot_top">
+                <div class="foot_box">
+                    <h5>CONTACT US</h5>
+                    <ul>
+                        <li><a href="tel:02037458381">0203 745 8381</a></li>
+                        <li><a href="mailto:info@thecurrencypeople.com">info@thecurrencypeople.com</a></li>
+                    </ul>
+                </div>
+                <div class="foot_box">
+                    <h5>SERVICES</h5>
+                    <ul>
+                        <li><a href="#">Buy Travel Money</a></li>
+                        <li><a href="#">Currency Buy Back</a></li>
+                        <li><a href="#">Transfer Money Abroad</a></li>
+                        <li><a href="#">Exchange Rates</a></li>
+                    </ul>
+                </div>
+                <div class="foot_box">
+                    <h5>INFORMATION</h5>
+                    <ul>
+                        <li><a href="#">Help and FAQ's</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>                    
+                </div>
+                <div class="foot_box">
+                    <h5>Subscribe Our Newsletter</h5>
+                    <p>Subscribe to our newsletter to receive updates and special offers</p>
+                    <form method="get" action="form">                        
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <input class="button" type="button" value="Subscribe">                    
+                    </form>
+                </div>
+                <div class="foot_box">
+                    <h5>PAYMENTS</h5>
+                    <p>We accept debit card <br>or bank transfers</p>
+                    <ul class="payment">
+                        <li><img src="images/Visa-Logo.png" alt="Visa-Logo"></li>
+                        <li><img src="images/mastercard-logo.png" alt="mastercard-logo"></li>
+                    </ul>
+                </div>
+                <div class="foot_box">
+                    <h5>COMPANY DETAILS</h5>
+                    <p>The Currency People <br>PO Box 514 <br>Stevenage <br>Herts <br>SG1 9LN</p>
+                </div>
+            </div>
+            <div class="foot_bot">
+                <div class="partner_box">
+                    <div class="partner_img">
+                        <img src="images/partner/foot-royal-mail.png" alt="royal-mail">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/foot-hm-revenue-custom.png" alt="hm-revenue-custom">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/foot-cyber.png" alt="cyber">
+                    </div>
+                    <div class="partner_img">
+                        <img src="images/partner/foot_secure.png" alt="secure">
+                    </div>                    
+                </div>
+            </div>
+            <div class="copy_right">
+                <p>Copyright © 2020 <a href="#">Travel FX Ltd</a>, All rights Reserved</p>
+            </div>
+        </div>
+        <!-- Footer links -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/general.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    </footer>
+</body>
+</html>

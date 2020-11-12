@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1199px) {
+    .banner .banner_inner .banner_text{transform: translate(-100%, -72%);}
+    .banner .banner_inner .tab_box{transform: translate(2%, -61%);}
+    .services .ser_bot{margin: 0 -15px;}
+    .why_choose .why_choose_bot{padding: 70px 0;}
+}
+@media only screen and (max-width: 991px)  {
+    #header .header_inner > .container{padding: 0;}
+    #header .header_inner .head_bar{flex-direction: column;}
+    #header .header_inner .head_bar .logo{padding-bottom: 0;}
+    #cssmenu > ul > li > a{margin: 0;padding: 17px;}
+    #cssmenu > ul > li:hover > a::after {content: inherit;}
+    .banner .banner_inner .banner_text{transform: translate(-50%, -60%);width: 100%;max-width: 462px;background: rgba(255,255,255, .5);padding: 20px;}
+    .banner .banner_inner .banner_text h2{font-size: 40px;line-height: 1;}
+    .banner .banner_inner .banner_text p{font-size: 18px;line-height: 1;}
+    .banner .banner_inner .banner_text .promo{padding-top: 20px;}
+    .banner .banner_inner .tab_box{position: inherit;transform: translate(-50%, -6%);}
+    .services{margin-top: 20px;}
+    .services .ser_top{max-width: 650px;}
+    .services .ser_top h2{font-size: 40px;line-height: 1;margin-bottom: 20px;}
+    .services .ser_top p{font-size: 18px;line-height: 1;}
+    .services .ser_bot .services_box{padding: 40px 20px;}
+    .services .ser_bot .services_box p{margin-bottom: 30px;}
+    .why_choose .why_choose_top .right_con h2{font-size: 40px;line-height: 1;margin-bottom: 20px;}
+    .why_choose .why_choose_top .right_con p{font-size: 28px;line-height: 1;margin-bottom: 20px;}
+    .why_choose .why_choose_bot{padding: 50px 0;}
+    .why_choose .why_choose_top .left_img{margin-right: 40px;}
+    .testimonial{padding: 30px 0 10px;}
+    .testimonial h2{font-size: 40px;line-height: 1;margin-bottom: 20px;}
+    .testimonial .our_testi .testimo .test_con h3{margin-bottom: 10px;}
+    .testimonial .our_testi .testimo{max-width: 540px;}
+    .testimonial .owl-theme .owl-nav .owl-prev{left: 20px;}
+    .testimonial .owl-theme .owl-nav .owl-next{right: 40px;}
+    #footer .foot_top{padding: 50px 0 0;justify-content: space-between;}
+    #footer .foot_top .foot_box{width: inherit;margin-bottom: 30px;}
+    #footer .foot_top .foot_box form input[type="email"]{max-width: inherit;}
+    #footer .foot_bot{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 767px)  {
+    .banner .banner_inner{height: 320px;background-position: 55% center;}
+    .banner .banner_inner.banner_img{background-image: url(../images/hero_banner.png);}
+    .banner .banner_inner.banner_img img{visibility: hidden;}
+    .banner .banner_inner .banner_text .promo .box img,.banner .banner_inner .tab_box .tabs .tab-link img{visibility: visible;}
+    .banner .banner_inner .banner_text{max-width: 431px;padding: 10px;}
+    .banner .banner_inner .banner_text h2{font-size: 30px;}
+    .banner .banner_inner .banner_text p{font-size: 16px;}
+    .banner .banner_inner .tab_box{transform: translate(-50%, -37%);}
+    .services{margin-top: 60px;}
+    .services .ser_top{max-width: 500px;}
+    .services .ser_top h2{font-size: 30px;}
+    .services .ser_top p{font-size: 16px;}
+    .services .ser_bot{margin: 0;flex-direction: column;}
+    .services .ser_bot .services_box{width: 100%;padding: 20px 40px;}
+    .services .ser_bot .services_box img{margin-bottom: 0;}
+    .services .ser_bot .services_box h3{font-size: 18px;margin-bottom: 10px;}
+    .services .ser_bot .services_box p{min-height: auto;margin-bottom: 20px;}
+    .services .ser_bot .services_box::after {content: inherit;}
+    .why_choose .why_choose_top{margin-top: 20px;flex-direction: column;}
+    .why_choose .why_choose_top .left_img{margin-right: 0;text-align: center;}
+    .why_choose .why_choose_bot{padding: 30px 0;}
+    .why_choose .why_choose_bot .partner_box{flex-direction: row;flex-wrap: wrap;}
+    .why_choose .why_choose_bot .partner_box .partner_img{width: 33.33%;text-align: center;margin-bottom: 20px;}
+    .why_choose .why_choose_top .right_con h2{font-size: 30px;}
+    .why_choose .why_choose_top .right_con p{font-size: 22px;}    
+    .testimonial{padding: 20px 0 10px;}
+    .testimonial h2{font-size: 30px;}
+    .testimonial .our_testi .testimo{max-width: 330px;}
+    #footer .foot_bot{margin-bottom: 20px;}
+    #footer .foot_top .foot_box{width: 50%;}
+    #footer .foot_top .foot_box form input[type="email"]{max-width: 168px;}
+    #footer .foot_bot .partner_box{justify-content: center;flex-wrap: wrap;text-align: center;align-items: center;}
+    #footer .foot_bot .partner_box .partner_img{width: 50%;margin-bottom: 20px;}
+}
+@media only screen and (max-width: 479px) {
+    .banner .banner_inner{height: 380px;}
+    .banner .banner_inner .banner_text{transform: translate(-50%, -66%);}
+    .banner .banner_inner .banner_text h2{font-size: 26px;}
+    .banner .banner_inner .banner_text p{font-size: 14px;}
+    .banner .banner_inner .banner_text .promo .box{margin-right: 16px;}
+    .banner .banner_inner .tab_box{max-width: 290px;transform: translate(-52%, 0%);}
+    .banner .banner_inner .tab_box .tabs .tab-link{width: 100%;}
+    .banner .banner_inner .tab_box .tab-content{padding: 20px;}
+    .banner .banner_inner .tab_box .tab-content form .two_field .field.half{width: 100%;}
+    .number-wrapper::after, .number-wrapper::before {right: -203px;}
+    .banner .banner_inner .tab_box .tab-content form .two_field .field.half p{margin: 0 auto 10px;}
+    .services{margin-top: 210px;}
+    .services .ser_top h2{font-size: 26px;}
+    .services .ser_top p{font-size: 14px;}
+    .services .ser_bot .services_box{padding: 20px;}
+    .why_choose .why_choose_top .right_con h2{font-size: 26px;margin-bottom: 10px;}
+    .why_choose .why_choose_top .right_con p{font-size: 18px;}
+    .why_choose .why_choose_top .right_con ol li p{line-height: 20px;}
+    .why_choose .why_choose_bot .partner_box .partner_img{width: 50%;}
+    .why_choose .why_choose_bot .partner_box .partner_img:last-child{width: 100%;text-align: center;}
+    .testimonial h2{font-size: 26px;margin-bottom: 10px;}
+    #footer .foot_top .foot_box{width: 100%;}
+    #footer .foot_top .foot_box h5{margin-bottom: 10px;}
+}
